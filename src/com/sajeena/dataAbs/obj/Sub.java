@@ -11,8 +11,8 @@ package com.sajeena.dataAbs.obj;
  */
 public class Sub extends operation {
      @Override
-    public int operate(int x, int y) {
-        return(x-y);
+    public void operate(int x, int y) {
+        System.out.println(x-y);
     }
     
 }

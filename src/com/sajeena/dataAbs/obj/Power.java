@@ -11,7 +11,8 @@ package com.sajeena.dataAbs.obj;
  */
 public class Power extends operation {
       @Override
-    public int operate(int x, int y) {
-        return((int) Math.pow(x,y));
+    public void operate(int x, int y) {
+        
+        System.out.println((int) Math.pow(x,y));
     }
 }

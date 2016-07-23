@@ -30,12 +30,9 @@ public abstract class operation {
                 
      }
       
-     public abstract int operate(int x, int y);
+     public abstract void operate(int x, int y);
      
-     public void output(int o)
-     {
-         System.out.println("Result:" + o);
-     }
+     
     
     
 }

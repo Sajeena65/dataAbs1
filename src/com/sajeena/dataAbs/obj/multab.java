@@ -9,10 +9,13 @@ package com.sajeena.dataAbs.obj;
  *
  * @author Admin
  */
-public class Div extends operation {
-     @Override
+public class multab extends operation {
+    @Override
     public void operate(int x, int y) {
-        System.out.println(x/y);
+        int i;
+        for ( i = 1 ; i<= y ; i++ )
+         System.out.println(x+"*"+i+" = "+(x*i));
+        
     }
     
 }
